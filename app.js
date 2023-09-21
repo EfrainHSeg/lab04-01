@@ -19,5 +19,5 @@ app.get('/productos', (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`La aplicación está escuchando en el puerto ${port}`);
+  console.log(`puerto ${port}`);
 });
